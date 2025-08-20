@@ -41,9 +41,17 @@
       </geometry>
         <material name="PureBlack">
         <color rgba="1.0 1.0 1.0 1.0"/>
-  <!-- Pure black, fully opaque -->
     </material>
     </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.04 -0.04  0.15"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/base_plate1.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+        <material name="PureBlack">
+        <color rgba="1.0 1.0 1.0 1.0"/>
+    </material>
+    </collision>
   </link>
 
   <!-- Revolute Joint: base_link -> base_plate -->
