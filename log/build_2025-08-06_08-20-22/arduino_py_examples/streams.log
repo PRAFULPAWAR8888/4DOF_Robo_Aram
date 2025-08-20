@@ -1,0 +1,27 @@
+[1.931s] Invoking command in '/home/praful_pawar/arduinobot_ws/src/arduino_py_examples': PYTHONPATH=/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/build install --record /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data
+[2.288s] running egg_info
+[2.313s] writing ../../build/arduino_py_examples/arduino_py_examples.egg-info/PKG-INFO
+[2.314s] writing dependency_links to ../../build/arduino_py_examples/arduino_py_examples.egg-info/dependency_links.txt
+[2.314s] writing entry points to ../../build/arduino_py_examples/arduino_py_examples.egg-info/entry_points.txt
+[2.316s] writing requirements to ../../build/arduino_py_examples/arduino_py_examples.egg-info/requires.txt
+[2.316s] writing top-level names to ../../build/arduino_py_examples/arduino_py_examples.egg-info/top_level.txt
+[2.369s] reading manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[2.370s] writing manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[2.371s] running build
+[2.371s] running build_py
+[2.371s] copying arduino_py_examples/simple_parameter.py -> /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/build/lib/arduino_py_examples
+[2.372s] running install
+[2.379s] running install_lib
+[2.407s] copying /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/build/lib/arduino_py_examples/simple_parameter.py -> /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples
+[2.408s] byte-compiling /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples/simple_parameter.py to simple_parameter.cpython-312.pyc
+[2.409s] running install_data
+[2.410s] copying package.xml -> /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/share/arduino_py_examples
+[2.412s] running install_egg_info
+[2.437s] removing '/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[2.438s] Copying ../../build/arduino_py_examples/arduino_py_examples.egg-info to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info
+[2.440s] running install_scripts
+[2.636s] Installing simple_parameter script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[2.636s] Installing simple_publisher script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[2.636s] Installing simple_subscriber script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[2.637s] writing list of installed files to '/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log'
+[2.690s] Invoked command in '/home/praful_pawar/arduinobot_ws/src/arduino_py_examples' returned '0': PYTHONPATH=/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/build install --record /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data

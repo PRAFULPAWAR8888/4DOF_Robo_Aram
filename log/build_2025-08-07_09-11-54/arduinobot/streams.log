@@ -1,0 +1,27 @@
+[0.460s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples:/opt/ros/jazzy /usr/bin/cmake /home/praful_pawar/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/praful_pawar/arduinobot_ws/install/arduinobot
+[1.071s] -- The C compiler identification is GNU 13.3.0
+[2.758s] -- The CXX compiler identification is GNU 13.3.0
+[4.242s] -- Detecting C compiler ABI info
+[4.756s] -- Detecting C compiler ABI info - done
+[4.772s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.772s] -- Detecting C compile features
+[4.773s] -- Detecting C compile features - done
+[4.965s] -- Detecting CXX compiler ABI info
+[5.464s] -- Detecting CXX compiler ABI info - done
+[5.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.475s] -- Detecting CXX compile features
+[5.475s] -- Detecting CXX compile features - done
+[5.493s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.724s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.895s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.024s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[6.024s]   ament_package_xml() package name 'arduinobot' in '/package.xml' does not
+[6.025s]   match current PROJECT_NAME 'arduinobot_description'.  You must call
+[6.025s]   project() with the same package name before.
+[6.025s] Call Stack (most recent call first):
+[6.025s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[6.025s]   CMakeLists.txt:24 (ament_lint_auto_find_test_dependencies)
+[6.025s] 
+[6.025s] [0m
+[6.025s] -- Configuring incomplete, errors occurred!
+[6.033s] Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples:/opt/ros/jazzy /usr/bin/cmake /home/praful_pawar/arduinobot_ws/src/arduinobot_description -DCMAKE_INSTALL_PREFIX=/home/praful_pawar/arduinobot_ws/install/arduinobot

@@ -1,0 +1,23 @@
+[1.033s] Invoking command in '/home/praful_pawar/arduinobot_ws/src/arduino_py_examples': PYTHONPATH=/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/build install --record /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data
+[1.315s] running egg_info
+[1.337s] writing ../../build/arduino_py_examples/arduino_py_examples.egg-info/PKG-INFO
+[1.338s] writing dependency_links to ../../build/arduino_py_examples/arduino_py_examples.egg-info/dependency_links.txt
+[1.338s] writing entry points to ../../build/arduino_py_examples/arduino_py_examples.egg-info/entry_points.txt
+[1.338s] writing requirements to ../../build/arduino_py_examples/arduino_py_examples.egg-info/requires.txt
+[1.338s] writing top-level names to ../../build/arduino_py_examples/arduino_py_examples.egg-info/top_level.txt
+[1.384s] reading manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[1.385s] writing manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[1.385s] running build
+[1.385s] running build_py
+[1.386s] running install
+[1.394s] running install_lib
+[1.420s] running install_data
+[1.421s] running install_egg_info
+[1.444s] removing '/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[1.444s] Copying ../../build/arduino_py_examples/arduino_py_examples.egg-info to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info
+[1.445s] running install_scripts
+[1.590s] Installing simple_parameter script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[1.590s] Installing simple_publisher script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[1.591s] Installing simple_subscriber script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples
+[1.591s] writing list of installed files to '/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log'
+[1.625s] Invoked command in '/home/praful_pawar/arduinobot_ws/src/arduino_py_examples' returned '0': PYTHONPATH=/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/build install --record /home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data

@@ -1,0 +1,1 @@
+[0.443s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8

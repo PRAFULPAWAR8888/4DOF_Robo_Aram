@@ -1,0 +1,41 @@
+[0.296s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[0.352s] Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[0.368s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot_description
+[0.383s] -- Install configuration: ""
+[0.384s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[0.384s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.stl
+[0.385s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.stl
+[0.386s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[0.386s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.stl
+[0.387s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.stl
+[0.388s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.stl
+[0.388s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive.stl
+[0.388s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm3.stl
+[0.388s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement3.stl
+[0.389s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.stl
+[0.389s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate1.stl
+[0.390s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.stl
+[0.390s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.stl
+[0.390s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.stl
+[0.391s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[0.391s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm2.stl
+[0.392s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.stl
+[0.392s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[0.393s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[0.393s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/display.launch.py
+[0.393s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[0.394s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[0.394s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[0.395s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[0.395s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[0.395s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[0.396s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[0.396s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[0.396s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[0.397s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[0.398s] -- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[0.398s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[0.399s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[0.399s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[0.401s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[0.407s] Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot_description

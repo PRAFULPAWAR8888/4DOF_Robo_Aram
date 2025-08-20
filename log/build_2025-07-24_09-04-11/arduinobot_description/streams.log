@@ -1,0 +1,20 @@
+[1.304s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[1.926s] Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot_description -- -j8 -l8
+[1.967s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot_description
+[2.015s] -- Install configuration: ""
+[2.016s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[2.017s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[2.018s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[2.018s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[2.019s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[2.019s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[2.020s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[2.020s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[2.032s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[2.033s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[2.033s] -- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[2.033s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[2.033s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[2.034s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[2.034s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[2.039s] Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot_description

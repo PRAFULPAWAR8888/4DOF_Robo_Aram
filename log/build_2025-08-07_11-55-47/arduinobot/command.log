@@ -1,0 +1,4 @@
+Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot -- -j8 -l8
+Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot -- -j8 -l8
+Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot
+Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot

@@ -1,0 +1,4 @@
+source;share/arduinobot/local_setup.bash
+source;share/arduinobot/local_setup.dsv
+source;share/arduinobot/local_setup.sh
+source;share/arduinobot/local_setup.zsh

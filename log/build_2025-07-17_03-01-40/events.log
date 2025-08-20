@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.001271] (arduino_py_examples) JobQueued: {'identifier': 'arduino_py_examples', 'dependencies': OrderedDict()}
+[0.002104] (arduinobot_cpp_examples) JobQueued: {'identifier': 'arduinobot_cpp_examples', 'dependencies': OrderedDict()}
+[0.002195] (arduino_py_examples) JobStarted: {'identifier': 'arduino_py_examples'}
+[0.041384] (arduinobot_cpp_examples) JobStarted: {'identifier': 'arduinobot_cpp_examples'}
+[0.099981] (-) TimerEvent: {}
+[0.200573] (-) TimerEvent: {}
+[0.301652] (-) TimerEvent: {}
+[0.402650] (-) TimerEvent: {}
+[0.503405] (-) TimerEvent: {}
+[0.586616] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'cmake'}
+[0.591293] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'build'}
+[0.592863] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples', '--', '-j8', '-l8'], 'cwd': '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'praful_pawar', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/praful_pawar', 'OLDPWD': '/home/praful_pawar', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'praful_pawar', 'NAME': 'LAPTOP-66TKL7MG', 'WSL_INTEROP': '/run/WSL/687_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'PATH': '/home/praful_pawar/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.12.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Java/jdk1.8.0_202/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/MinGW/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/praful pawar/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/praful pawar/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/praful pawar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/praful pawar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/AnaConda/Library/bin:/mnt/c/AnaConda/Scripts:/mnt/c/AnaConda/condabin:/mnt/c/Users/praful pawar/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6e8df8d6-a39d-43c8-9545-d972be83701e', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '7600', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.603734] (-) TimerEvent: {}
+[0.704457] (-) TimerEvent: {}
+[0.805278] (-) TimerEvent: {}
+[0.850720] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.905474] (-) TimerEvent: {}
+[1.006099] (-) TimerEvent: {}
+[1.106859] (-) TimerEvent: {}
+[1.207667] (-) TimerEvent: {}
+[1.308379] (-) TimerEvent: {}
+[1.409261] (-) TimerEvent: {}
+[1.415783] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.509654] (-) TimerEvent: {}
+[1.611393] (-) TimerEvent: {}
+[1.712278] (-) TimerEvent: {}
+[1.813049] (-) TimerEvent: {}
+[1.913836] (-) TimerEvent: {}
+[1.983853] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.012222] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.014033] (-) TimerEvent: {}
+[2.069852] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.114886] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.115365] (-) TimerEvent: {}
+[2.215911] (-) TimerEvent: {}
+[2.307652] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.316104] (-) TimerEvent: {}
+[2.316965] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.416252] (-) TimerEvent: {}
+[2.516808] (-) TimerEvent: {}
+[2.617322] (-) TimerEvent: {}
+[2.717837] (-) TimerEvent: {}
+[2.818348] (-) TimerEvent: {}
+[2.906827] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.918594] (-) TimerEvent: {}
+[2.972990] (arduino_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduino_py_examples', 'build', '--build-base', '/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/build', 'install', '--record', '/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/praful_pawar/arduinobot_ws/src/arduino_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'praful_pawar', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/praful_pawar', 'OLDPWD': '/home/praful_pawar', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'praful_pawar', 'NAME': 'LAPTOP-66TKL7MG', 'WSL_INTEROP': '/run/WSL/687_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'PATH': '/home/praful_pawar/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.12.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Java/jdk1.8.0_202/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/MinGW/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/praful pawar/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/praful pawar/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/praful pawar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/praful pawar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/AnaConda/Library/bin:/mnt/c/AnaConda/Scripts:/mnt/c/AnaConda/condabin:/mnt/c/Users/praful pawar/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6e8df8d6-a39d-43c8-9545-d972be83701e', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/praful_pawar/arduinobot_ws/build/arduino_py_examples', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '7600', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}, 'shell': False}
+[3.018858] (-) TimerEvent: {}
+[3.119303] (-) TimerEvent: {}
+[3.219860] (-) TimerEvent: {}
+[3.320468] (-) TimerEvent: {}
+[3.420930] (-) TimerEvent: {}
+[3.521422] (-) TimerEvent: {}
+[3.534020] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.584362] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.621815] (-) TimerEvent: {}
+[3.635524] (arduino_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[3.678833] (arduino_py_examples) StdoutLine: {'line': b'writing ../../build/arduino_py_examples/arduino_py_examples.egg-info/PKG-INFO\n'}
+[3.679962] (arduino_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/arduino_py_examples/arduino_py_examples.egg-info/dependency_links.txt\n'}
+[3.680654] (arduino_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/arduino_py_examples/arduino_py_examples.egg-info/entry_points.txt\n'}
+[3.681119] (arduino_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/arduino_py_examples/arduino_py_examples.egg-info/requires.txt\n'}
+[3.681583] (arduino_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/arduino_py_examples/arduino_py_examples.egg-info/top_level.txt\n'}
+[3.722005] (-) TimerEvent: {}
+[3.768091] (arduino_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'\n"}
+[3.770136] (arduino_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'\n"}
+[3.770764] (arduino_py_examples) StdoutLine: {'line': b'running build\n'}
+[3.771073] (arduino_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[3.772739] (arduino_py_examples) StdoutLine: {'line': b'running install\n'}
+[3.778589] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.779287] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.779502] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.781095] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.783550] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.784001] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.785094] (arduinobot_cpp_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.785637] (arduino_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[3.789949] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.822153] (-) TimerEvent: {}
+[3.835681] (arduino_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[3.838949] (arduino_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.858362] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.872902] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples\n'}
+[3.887118] (arduino_py_examples) StdoutLine: {'line': b"removing '/home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.888599] (arduino_py_examples) StdoutLine: {'line': b'Copying ../../build/arduino_py_examples/arduino_py_examples.egg-info to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info\n'}
+[3.891487] (arduino_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[3.922337] (-) TimerEvent: {}
+[3.936350] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[3.990667] (arduinobot_cpp_examples) StdoutLine: {'line': b'[ 75%] Built target simple_publisher\n'}
+[4.022641] (-) TimerEvent: {}
+[4.123364] (-) TimerEvent: {}
+[4.224048] (-) TimerEvent: {}
+[4.324974] (-) TimerEvent: {}
+[4.336650] (arduino_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples\n'}
+[4.337834] (arduino_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/praful_pawar/arduinobot_ws/install/arduino_py_examples/lib/arduino_py_examples\n'}
+[4.338929] (arduino_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/praful_pawar/arduinobot_ws/build/arduino_py_examples/install.log'\n"}
+[4.414940] (arduino_py_examples) CommandEnded: {'returncode': 0}
+[4.425674] (-) TimerEvent: {}
+[4.463964] (arduino_py_examples) JobEnded: {'identifier': 'arduino_py_examples', 'rc': 0}
+[4.525953] (-) TimerEvent: {}
+[4.627805] (-) TimerEvent: {}
+[4.728891] (-) TimerEvent: {}
+[4.831127] (-) TimerEvent: {}
+[4.932323] (-) TimerEvent: {}
+[5.034137] (-) TimerEvent: {}
+[5.136384] (-) TimerEvent: {}
+[5.237052] (-) TimerEvent: {}
+[5.339278] (-) TimerEvent: {}
+[5.441505] (-) TimerEvent: {}
+[5.542457] (-) TimerEvent: {}
+[5.644743] (-) TimerEvent: {}
+[5.746232] (-) TimerEvent: {}
+[5.847634] (-) TimerEvent: {}
+[5.949015] (-) TimerEvent: {}
+[6.050530] (-) TimerEvent: {}
+[6.152111] (-) TimerEvent: {}
+[6.253881] (-) TimerEvent: {}
+[6.355414] (-) TimerEvent: {}
+[6.457162] (-) TimerEvent: {}
+[6.558481] (-) TimerEvent: {}
+[6.659471] (-) TimerEvent: {}
+[6.760551] (-) TimerEvent: {}
+[6.863726] (-) TimerEvent: {}
+[6.967200] (-) TimerEvent: {}
+[7.069380] (-) TimerEvent: {}
+[7.172464] (-) TimerEvent: {}
+[7.275549] (-) TimerEvent: {}
+[7.377512] (-) TimerEvent: {}
+[7.480518] (-) TimerEvent: {}
+[7.583692] (-) TimerEvent: {}
+[7.684885] (-) TimerEvent: {}
+[7.788038] (-) TimerEvent: {}
+[7.891140] (-) TimerEvent: {}
+[7.993548] (-) TimerEvent: {}
+[8.096759] (-) TimerEvent: {}
+[8.197641] (-) TimerEvent: {}
+[8.300664] (-) TimerEvent: {}
+[8.403811] (-) TimerEvent: {}
+[8.506959] (-) TimerEvent: {}
+[8.608267] (-) TimerEvent: {}
+[8.709721] (-) TimerEvent: {}
+[8.810439] (-) TimerEvent: {}
+[8.911976] (-) TimerEvent: {}
+[9.013663] (-) TimerEvent: {}
+[9.115330] (-) TimerEvent: {}
+[9.216161] (-) TimerEvent: {}
+[9.317600] (-) TimerEvent: {}
+[9.419161] (-) TimerEvent: {}
+[9.520083] (-) TimerEvent: {}
+[9.621504] (-) TimerEvent: {}
+[9.723108] (-) TimerEvent: {}
+[9.824102] (-) TimerEvent: {}
+[9.924699] (-) TimerEvent: {}
+[10.025282] (-) TimerEvent: {}
+[10.126169] (-) TimerEvent: {}
+[10.226886] (-) TimerEvent: {}
+[10.328316] (-) TimerEvent: {}
+[10.429185] (-) TimerEvent: {}
+[10.530100] (-) TimerEvent: {}
+[10.631050] (-) TimerEvent: {}
+[10.731962] (-) TimerEvent: {}
+[10.832856] (-) TimerEvent: {}
+[10.933863] (-) TimerEvent: {}
+[11.035194] (-) TimerEvent: {}
+[11.136869] (-) TimerEvent: {}
+[11.238088] (-) TimerEvent: {}
+[11.338954] (-) TimerEvent: {}
+[11.439639] (-) TimerEvent: {}
+[11.540434] (-) TimerEvent: {}
+[11.641450] (-) TimerEvent: {}
+[11.742215] (-) TimerEvent: {}
+[11.842805] (-) TimerEvent: {}
+[11.943389] (-) TimerEvent: {}
+[12.043882] (-) TimerEvent: {}
+[12.144419] (-) TimerEvent: {}
+[12.245002] (-) TimerEvent: {}
+[12.345711] (-) TimerEvent: {}
+[12.446375] (-) TimerEvent: {}
+[12.547080] (-) TimerEvent: {}
+[12.647594] (-) TimerEvent: {}
+[12.748164] (-) TimerEvent: {}
+[12.848847] (-) TimerEvent: {}
+[12.949463] (-) TimerEvent: {}
+[13.050090] (-) TimerEvent: {}
+[13.150681] (-) TimerEvent: {}
+[13.252396] (-) TimerEvent: {}
+[13.355216] (-) TimerEvent: {}
+[13.460045] (-) TimerEvent: {}
+[13.564970] (-) TimerEvent: {}
+[13.665694] (-) TimerEvent: {}
+[13.766956] (-) TimerEvent: {}
+[13.871737] (-) TimerEvent: {}
+[13.974170] (-) TimerEvent: {}
+[14.078957] (-) TimerEvent: {}
+[14.184041] (-) TimerEvent: {}
+[14.284673] (-) TimerEvent: {}
+[14.387231] (-) TimerEvent: {}
+[14.492019] (-) TimerEvent: {}
+[14.592929] (-) TimerEvent: {}
+[14.693776] (-) TimerEvent: {}
+[14.794871] (-) TimerEvent: {}
+[14.895573] (-) TimerEvent: {}
+[14.999837] (-) TimerEvent: {}
+[15.102713] (-) TimerEvent: {}
+[15.203788] (-) TimerEvent: {}
+[15.304623] (-) TimerEvent: {}
+[15.407166] (-) TimerEvent: {}
+[15.512161] (-) TimerEvent: {}
+[15.617436] (-) TimerEvent: {}
+[15.720893] (-) TimerEvent: {}
+[15.826024] (-) TimerEvent: {}
+[15.929073] (-) TimerEvent: {}
+[16.034109] (-) TimerEvent: {}
+[16.139052] (-) TimerEvent: {}
+[16.244204] (-) TimerEvent: {}
+[16.346087] (-) TimerEvent: {}
+[16.451134] (-) TimerEvent: {}
+[16.556182] (-) TimerEvent: {}
+[16.661463] (-) TimerEvent: {}
+[16.766519] (-) TimerEvent: {}
+[16.871577] (-) TimerEvent: {}
+[16.973212] (-) TimerEvent: {}
+[17.078070] (-) TimerEvent: {}
+[17.182753] (-) TimerEvent: {}
+[17.287781] (-) TimerEvent: {}
+[17.388675] (-) TimerEvent: {}
+[17.489478] (-) TimerEvent: {}
+[17.593030] (-) TimerEvent: {}
+[17.693797] (-) TimerEvent: {}
+[17.794553] (-) TimerEvent: {}
+[17.896323] (-) TimerEvent: {}
+[17.997076] (-) TimerEvent: {}
+[18.098099] (-) TimerEvent: {}
+[18.198894] (-) TimerEvent: {}
+[18.301128] (-) TimerEvent: {}
+[18.402715] (-) TimerEvent: {}
+[18.412493] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[18.503433] (-) TimerEvent: {}
+[18.604367] (-) TimerEvent: {}
+[18.705208] (-) TimerEvent: {}
+[18.805768] (-) TimerEvent: {}
+[18.906322] (-) TimerEvent: {}
+[19.006854] (-) TimerEvent: {}
+[19.107429] (-) TimerEvent: {}
+[19.208012] (-) TimerEvent: {}
+[19.308623] (-) TimerEvent: {}
+[19.409222] (-) TimerEvent: {}
+[19.509857] (-) TimerEvent: {}
+[19.532670] (arduinobot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[19.558779] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[19.560680] (arduinobot_cpp_examples) JobProgress: {'identifier': 'arduinobot_cpp_examples', 'progress': 'install'}
+[19.575626] (arduinobot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples'], 'cwd': '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'praful_pawar', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/praful_pawar', 'OLDPWD': '/home/praful_pawar', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'praful_pawar', 'NAME': 'LAPTOP-66TKL7MG', 'WSL_INTEROP': '/run/WSL/687_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'PATH': '/home/praful_pawar/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.12.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Java/jdk1.8.0_202/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/MinGW/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/praful pawar/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/praful pawar/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/praful pawar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/praful pawar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/AnaConda/Library/bin:/mnt/c/AnaConda/Scripts:/mnt/c/AnaConda/condabin:/mnt/c/Users/praful pawar/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:6e8df8d6-a39d-43c8-9545-d972be83701e', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '7600', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[19.588709] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.591751] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher\n'}
+[19.592185] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber\n'}
+[19.600672] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber" to ""\n'}
+[19.601228] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples\n'}
+[19.601703] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples\n'}
+[19.602462] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[19.603121] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[19.603483] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh\n'}
+[19.603815] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv\n'}
+[19.604129] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash\n'}
+[19.604512] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh\n'}
+[19.604699] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh\n'}
+[19.604836] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv\n'}
+[19.605167] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv\n'}
+[19.605489] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples\n'}
+[19.605972] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake\n'}
+[19.606120] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake\n'}
+[19.606258] (arduinobot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml\n'}
+[19.608839] (arduinobot_cpp_examples) CommandEnded: {'returncode': 0}
+[19.609931] (-) TimerEvent: {}
+[19.646439] (arduinobot_cpp_examples) JobEnded: {'identifier': 'arduinobot_cpp_examples', 'rc': 0}
+[19.649578] (-) EventReactorShutdown: {}

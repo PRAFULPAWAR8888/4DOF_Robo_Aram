@@ -1,0 +1,4 @@
+[console_scripts]
+simple_parameter = arduino_py_examples.simple_parameter:main
+simple_publisher = arduino_py_examples.simple_publisher:main
+simple_subscriber = arduino_py_examples.simple_subscriber:main

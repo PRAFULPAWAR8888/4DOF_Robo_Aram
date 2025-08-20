@@ -1,0 +1,30 @@
+[0.295s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8
+[0.480s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.480s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[6.951s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[7.429s] [ 75%] Built target simple_publisher
+[10.281s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[10.713s] [100%] Built target simple_subscriber
+[10.728s] Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples -- -j8 -l8
+[10.733s] Invoking command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples
+[10.744s] -- Install configuration: ""
+[10.748s] -- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[10.749s] -- Set non-toolchain portion of runtime path of "/home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher" to ""
+[10.751s] -- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[10.756s] -- Set non-toolchain portion of runtime path of "/home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber" to ""
+[10.758s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[10.759s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[10.761s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[10.761s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[10.762s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[10.762s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[10.762s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[10.762s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[10.762s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[10.762s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[10.762s] -- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[10.763s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[10.764s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[10.764s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[10.764s] -- Up-to-date: /home/praful_pawar/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[10.767s] Invoked command in '/home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/praful_pawar/arduinobot_ws/build/arduinobot_cpp_examples

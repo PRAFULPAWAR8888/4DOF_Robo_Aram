@@ -1,0 +1,43 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/praful_pawar/arduinobot_ws/build/arduinobot
+-- Install configuration: ""
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/link.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/left_finger.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/forward_drive_arm.STL
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/right_finger.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/servo_plate.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/vertical_drive_arm.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/forward_drive.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/horizontal_arm3.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/basement3.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/horizontal_arm.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/base_plate1.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/round_plate.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/triangular_link.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/claw_support.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/horizontal_arm.STL
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/horizontal_arm2.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/meshes/plate.stl
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/urdf
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/urdf/arduinobot.urdf.xacro
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/ament_index/resource_index/package_run_dependencies/arduinobot
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/ament_index/resource_index/parent_prefix_path/arduinobot
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/environment/ament_prefix_path.sh
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/environment/ament_prefix_path.dsv
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/environment/path.sh
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/environment/path.dsv
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/local_setup.bash
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/local_setup.sh
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/local_setup.zsh
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/local_setup.dsv
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/package.dsv
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/ament_index/resource_index/packages/arduinobot
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/cmake/arduinobotConfig.cmake
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/cmake/arduinobotConfig-version.cmake
+-- Installing: /home/praful_pawar/arduinobot_ws/install/arduinobot/share/arduinobot/package.xml
