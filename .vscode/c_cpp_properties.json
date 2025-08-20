@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/jazzy/include/**",
+                "/home/praful_pawar/arduinobot_ws/src/arduinobot_cpp_examples/include/**",
+                "/usr/include/**",
+                "/opt/ros/jazzy/include/std_msgs",
+                "/opt/ros/jazzy/include/rosidl_runtime_cpp",
+                "/opt/ros/jazzy/include/rcl_interfaces"
+            ],
+            "name": "ros2",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
