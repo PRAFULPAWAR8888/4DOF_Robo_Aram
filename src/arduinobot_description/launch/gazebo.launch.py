@@ -10,32 +10,19 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
-    # Argument for robot model (xacro file)
-    model_arg = DeclareLaunchArgument(
-        name="model",
-        default_value=os.path.join(
-            get_package_share_directory("arduinobot_description"),
-            "urdf",
-            "arduinobot.urdf.xacro"
-            "testbox.urdf"
-        ),
-        description="Absolute path to the robot URDF file"
-    )
+    arduinobot_description_dir=get_package_share_directory("arduinobot_description")
+    model_arg = DeclareLaunchArgument(name="model", default_value=os.path.join(
+        arduinobot_description_dir, 'urdf', 'arduinobot.urdf.xacro'
+    ), description="Absolute path to robot urdf file")
 
-    # Gazebo resource path (point to package root)
     gazebo_resource_path = SetEnvironmentVariable(
-        name='GAZEBO_RESOURCE_PATH',
-        value=str(get_package_share_directory('arduinobot_description'))
-    )
-
-    # Process robot description using xacro
+        name='GZ_SIM_RESOURCE_PATH', 
+        value=[
+          str(Path(arduinobot_description_dir).parent.resolve())
+        ]
+        )
     robot_description = ParameterValue(
-        Command([
-            "xacro ",
-            LaunchConfiguration("model")
-        ]),
-        value_type=str
-    )
+        Command(['xacro ', LaunchConfiguration('model')]),value_type=str)
 
     # Robot State Publisher
     robot_state_publisher = Node(
@@ -46,14 +33,14 @@ def generate_launch_description():
 
     # Launch Gazebo (ros_gz_sim)
     gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
+        PythonLaunchDescriptionSource([
             os.path.join(
                 get_package_share_directory('ros_gz_sim'),
-                'launch',
-                'gz_sim.launch.py'
-            )
+                'launch'),"/gz_sim.launch.py"]
+            
         ),
-        launch_arguments={'gz_args': '-v 4 -r empty.sdf'}.items()
+        launch_arguments=[("gz_args", [" -v 4 -r empty.sdf"])
+        ]
     )
 
     # Spawn robot into Gazebo
@@ -73,8 +60,7 @@ def generate_launch_description():
     gz_ros2_bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock]'],
-        output='screen'
+        arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock]']
     )
 
     return LaunchDescription([
