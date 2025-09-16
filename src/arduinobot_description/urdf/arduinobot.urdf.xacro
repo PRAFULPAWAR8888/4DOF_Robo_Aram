@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dreambot">
+
+  <!-- Constants -->
+  <xacro:property name="PI" value="3.14159"/>
+  <xacro:property name="effort" value="30.0"/>
+  <xacro:property name="velocity" value="10.0"/>
+
+  <xacro:macro name="default_inertial" params="mass">
+         <inertial>
+      <mass value="${mass}"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+               iyy="1.0" iyz="0.0"
+               izz="1.0"/>
+    </inertial>
+  </xacro:macro>
+
+  <!-- Root Link -->
+  <link name="world"/>
+
+  <!-- Base Link -->
+  <link name="base_link">
+   <xacro:default_inertial mass="1.0"/>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/basement3.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/basement3.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Fixed Joint: world -> base_link -->
+  <joint name="virtual_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+
+  <!-- Base Plate Link -->
+  <link name="base_plate">
+    <xacro:default_inertial mass="0.1"/>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.04 -0.04  0.15"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/base_plate1.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+        
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.04 -0.04  0.15"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/base_plate1.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+       
+    </collision>
+  </link>
+
+  <!-- Revolute Joint: base_link -> base_plate -->
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="base_plate"/>
+    <axis xyz="0 0 1"/>
+    <origin rpy="0 0 0" xyz="0.000 0 0.307"/>
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+  </joint>
+
+  <link name="forword_drive">
+    <xacro:default_inertial mass="0.1"/>
+    <visual>
+      <origin rpy="0 -${PI/2} ${PI/2}" xyz="0.20 0.075 -0.075"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/forward_drive_arm.stl" scale="0.01 0.01 0.01"/>
+      </geometry>    
+    </visual>
+    <collision>
+      <origin rpy="0 -${PI/2} ${PI/2}" xyz="0.20 0.075 -0.075"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/forward_drive_arm.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+      </collision>
+  </link>
+
+  <joint name="joint_2" type="revolute">
+    <parent link="base_plate"/>
+    <child link="forword_drive"/>
+    <axis xyz="1 0 0"/>
+    <origin rpy="0 0 0" xyz="0.000 0.003 0.255"/>
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+  </joint>
+
+  <link name="horizontal_arm">
+    <xacro:default_inertial mass="0.1"/>
+    <visual>
+      <origin rpy="0  0 1.5708 " xyz="-0.016 -0.433 -0.076"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/horizontal_arm3.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0  0 1.5708 " xyz="-0.016 -0.433 -0.076"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/horizontal_arm3.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_3" type="revolute">
+    <parent link="forword_drive"/>
+    <child link="horizontal_arm"/>
+    <axis xyz="1 0 0"/>
+    <origin rpy="0 0 0" xyz="0.000 0.025 0.800"/>
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+   </joint>
+
+  <link name="claw_support">
+    <xacro:default_inertial mass="0.05"/>
+    <visual>
+      <origin rpy="0 0 1.5708" xyz="0.035 0.055 0.005"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/claw_support.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 1.5708" xyz="0.035 0.055 0.005"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/claw_support.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+</link>
+
+  <joint name="joint_4" type="fixed">
+    <parent link="horizontal_arm"/>
+    <child link="claw_support"/>
+    <axis xyz="1 0 0"/>
+    <origin rpy="0 0 0" xyz="0.000 0.707 -0.002"/>
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+  </joint> 
+
+  <link name="griper_left">
+    <xacro:default_inertial mass="0.01"/>
+    <visual>
+      <origin rpy="0 0 4.7124" xyz="0.040 0.035 -0.08"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/left_finger.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 4.7124" xyz="0.040 0.035 -0.08"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/left_finger.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="griper_right">
+    <xacro:default_inertial mass="0.01"/>
+    <visual>
+      <origin rpy="0 0 4.7124" xyz="-0.040 0.035 -0.08"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/right_finger.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+    </visual>
+    <collision>
+       <origin rpy="0 0 4.7124" xyz="-0.040 0.035 -0.08"/>
+      <geometry>
+        <mesh filename="package://arduinobot_description/meshes/right_finger.stl" scale="0.01 0.01 0.01"/>
+      </geometry>
+      </collision>
+  </link>
+
+  <joint name="joint_5" type="revolute">
+     <parent link="claw_support"/>
+    <child link="griper_left"/>
+    <axis xyz="0 0 1"/>
+    <origin rpy="0 0 0" xyz="-0.065 0.146 -0.105"/>
+    <mimic joint="joint_6" multiplier="-1"/>
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+   </joint> 
+   
+  <joint name="joint_6" type="revolute">
+     <parent link="claw_support"/>
+    <child link="griper_right"/>
+    <axis xyz="0 0 1"/>
+    <origin rpy="0 0 0" xyz="0.120 0.146 -0.105"/>
+    <limit lower="${-PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+    </joint>
+
+  </robot>

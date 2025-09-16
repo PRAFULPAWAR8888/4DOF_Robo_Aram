@@ -1,0 +1,15 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# VSCode cache
+.vscode/*.db*
+.vscode/*.db-shm
+.vscode/*.db-wal
+
+# Generated files
+*.pdf
+*.gv
+*.bag
+*.zip
